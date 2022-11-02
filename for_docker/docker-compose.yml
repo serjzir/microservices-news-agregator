@@ -1,0 +1,36 @@
+version: '3.5'
+services:
+  redis:
+    image: redis:6.2-alpine
+    command: redis-server
+    restart: on-failure
+    volumes:
+      - ./redis:/data
+    ports:
+      - 127.0.0.1:6379:6379
+
+
+  postgres:
+    container_name: pg_gonewsagregator
+    image: postgres
+    env_file:
+      - .env
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    ports:
+      - 127.0.0.1:5432:5432
+
+  mongo:
+    container_name: mongo_comment
+    image: mongo
+    restart: on-failure
+    volumes:
+      - ./mongo:/data/db
+    ports:
+      - 127.0.0.1:27017:27017
+    env_file:
+      - .env1
+volumes:
+  postgres:
+  mongo:
+  redis:

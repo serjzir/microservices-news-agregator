@@ -1,0 +1,309 @@
+[{
+  "_id": {
+    "$oid": "635543c7f3e9d467cc864954"
+  },
+  "newsID": 7,
+  "slug": "lPPd",
+  "author": "test",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666532295070"
+    }
+  },
+  "text": "fdfsdfjsdklfjsdkf",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "63556deab8675a0389117e98"
+  },
+  "newsID": 6,
+  "slug": "IDFh",
+  "author": "test",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666543082823"
+    }
+  },
+  "text": "Отличная статья",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "63556e2eb8675a0389117e99"
+  },
+  "newsID": 6,
+  "slug": "IDFh:koGc",
+  "fullSlug": ":4263804371:koGc",
+  "author": "test1",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666543150558"
+    }
+  },
+  "text": "Ответ на коментарий от test",
+  "parentID": {
+    "$oid": "63556e2eb8675a0389117e9a"
+  },
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "63556e4db8675a0389117e9b"
+  },
+  "newsID": 6,
+  "slug": "IDFh:koGc:fiLh",
+  "fullSlug": ":4263804371:koGc:4263804415:fiLh",
+  "author": "test2",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666543181208"
+    }
+  },
+  "text": "Ответ на коментарий от test1",
+  "parentID": {
+    "$oid": "63556e4db8675a0389117e9c"
+  },
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "63556e8ab8675a0389117e9d"
+  },
+  "newsID": 6,
+  "slug": "nnll",
+  "author": "test3",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666543242867"
+    }
+  },
+  "text": "Отличная статья второй комментарий не связанный с остальными",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "6355778d051a6935d12cb2cc"
+  },
+  "newsID": 6,
+  "slug": "IDFh:dPmH",
+  "fullSlug": ":4263807636:dPmH",
+  "author": "test5",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666545549335"
+    }
+  },
+  "text": "Ответ на коментарий test",
+  "parentID": {
+    "$oid": "6355778d051a6935d12cb2cd"
+  },
+  "deletedf": false
+},{
+  "_id": {
+    "$oid": "63558075a2944deee5e8303c"
+  },
+  "newsID": 6,
+  "slug": "IDFh:JJCn",
+  "fullSlug": ":4263811750:JJCn",
+  "parentID": {
+    "$oid": "63558075a2944deee5e8303d"
+  },
+  "author": "test5",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666547829942"
+    }
+  },
+  "text": "Ответ на коментарий test",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "6355807dc8eb961f696f555d"
+  },
+  "newsID": 6,
+  "slug": "IDFh:CkEe",
+  "fullSlug": ":4263811758:CkEe",
+  "parentID": {
+    "$oid": "000000000000000000000000"
+  },
+  "author": "test5",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666547837814"
+    }
+  },
+  "text": "Ответ на коментарий test",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "635580a8c8eb961f696f555e"
+  },
+  "newsID": 6,
+  "slug": "IDFh:CkEe:idPj",
+  "fullSlug": ":4263811758:CkEe:4263811816:idPj",
+  "parentID": {
+    "$oid": "000000000000000000000000"
+  },
+  "author": "test5",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666547880208"
+    }
+  },
+  "text": "Ответ на коментарий test",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "635581328d87f10e592b4ea9"
+  },
+  "newsID": 6,
+  "slug": "IDFh:CkEe:JLbq",
+  "fullSlug": ":4263811758:CkEe:4263812080:JLbq",
+  "parentID": {
+    "$oid": "000000000000000000000000"
+  },
+  "author": "test5",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666548018994"
+    }
+  },
+  "text": "Ответ на коментарий test",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "6355819c857addd3dc649dd7"
+  },
+  "newsID": 6,
+  "slug": "IDFh:CkEe:pkmN",
+  "fullSlug": ":4263811758:CkEe:4263812217:pkmN",
+  "parentID": {
+    "$oid": "000000000000000000000000"
+  },
+  "author": "test5",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666548124746"
+    }
+  },
+  "text": "Ответ на коментарий test",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "635581fe1aba983660004424"
+  },
+  "newsID": 6,
+  "slug": "IDFh:hjng",
+  "fullSlug": ":4263812336:hjng",
+  "parentID": {
+    "$oid": "63556deab8675a0389117e98"
+  },
+  "author": "test5",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666548222590"
+    }
+  },
+  "text": "Ответ на коментарий test",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "635582061aba983660004425"
+  },
+  "newsID": 6,
+  "slug": "IDFh:CkEe:MPLE",
+  "fullSlug": ":4263811758:CkEe:4263812345:MPLE",
+  "parentID": {
+    "$oid": "6355807dc8eb961f696f555d"
+  },
+  "author": "test5",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666548230476"
+    }
+  },
+  "text": "Ответ на коментарий test",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "6355827f7052691c84ff8876"
+  },
+  "newsID": 5,
+  "slug": "AFsJ",
+  "author": "name",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666548351186"
+    }
+  },
+  "text": "Отличная статья",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "635582e8ae452f32a05f36f1"
+  },
+  "newsID": 5,
+  "slug": "AFsJ:pArn",
+  "fullSlug": ":4263812626:pArn",
+  "parentID": {
+    "$oid": "6355827f7052691c84ff8876"
+  },
+  "author": "name1",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666548456615"
+    }
+  },
+  "text": "Ответ на name",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "63558351ae452f32a05f36f2"
+  },
+  "newsID": 5,
+  "slug": "AFsJ:pArn:tOAr",
+  "fullSlug": ":4263812626:pArn:4263812753:tOAr",
+  "parentID": {
+    "$oid": "635582e8ae452f32a05f36f1"
+  },
+  "author": "name2",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666548561897"
+    }
+  },
+  "text": "Ответ на name2",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "6355835cae452f32a05f36f3"
+  },
+  "newsID": 5,
+  "slug": "AFsJ:Fhpp",
+  "fullSlug": ":4263812765:Fhpp",
+  "parentID": {
+    "$oid": "6355827f7052691c84ff8876"
+  },
+  "author": "name3",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666548572850"
+    }
+  },
+  "text": "Ответ на name",
+  "deleted": false
+},{
+  "_id": {
+    "$oid": "63558367ae452f32a05f36f4"
+  },
+  "newsID": 5,
+  "slug": "AFsJ:pArn:Jejk",
+  "fullSlug": ":4263812626:pArn:4263812777:Jejk",
+  "parentID": {
+    "$oid": "635582e8ae452f32a05f36f1"
+  },
+  "author": "name4",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666548583395"
+    }
+  },
+  "text": "Ответ на name1",
+  "deleted": false
+}]

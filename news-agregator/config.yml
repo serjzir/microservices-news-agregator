@@ -1,0 +1,13 @@
+---
+
+listen:
+  bind_ip: 127.0.0.1
+  port: 8080
+storage:
+  host: 127.0.0.1
+  port: 5432
+  database: gonewsagregator
+  username: postgres
+  password: toor-555
+path:
+  config: "config.json"
